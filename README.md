@@ -82,7 +82,8 @@ Output images showcasing each task are included in the `Output Images/` director
 │   ├── task2.png
 │   └── …
 └── README.md
-```
+``` 
+</pre>
 ---
 
 ## 🙏 Acknowledgment
