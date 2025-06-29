@@ -72,7 +72,7 @@ Output images showcasing each task are included in the `Output Images/` director
 ## 📂 Folder Structure
 
 <pre>
-```text
+```
 📁 root/
 ├── index.html
 ├── styles.css
@@ -82,7 +82,7 @@ Output images showcasing each task are included in the `Output Images/` director
 │   ├── task2.png
 │   └── …
 └── README.md
-
+```
 ---
 
 ## 🙏 Acknowledgment
