@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 6: Form Validation</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- Task 6: Form Styling and Validation
+  -----------------------------------
+  Objective: Improve usability and data integrity by designing visually appealing forms and 
+              implementing client-side validation for user input.
+
+      Steps:
+          1. Design a form in index.html with appropriate input fields and labels.
+          2. Style the form using CSS in styles.css.
+          3. Implement client-side form validation in script.js to validate user input before submission.
+          4. Provide feedback to the user about validation errors.
+  -->
+
+  <h1>User Registration Form</h1>
+
+  <form id="registrationForm" novalidate>
+    <div class="form-group">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your full name" required />
+      <span class="error" id="nameError"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <span class="error" id="emailError"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Create a password" required />
+      <span class="error" id="passwordError"></span>
+    </div>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
